@@ -14,11 +14,11 @@ defined( 'ABSPATH' ) || exit;
 
 <footer class="footer">
     <div class="container">
-        <div class="row">
+        <div class="row d-flex flex-column flex-md-row align-items-center">
             <?php the_custom_logo() ?>
             <?php wp_nav_menu(array(
-                'container_class'       => 'ml-auto col-xl-3 d-flex align-items-center',
-                'menu_class'            => 'list-unstyled text-black d-flex justify-content-between w-100',
+                'container_class'       => 'ml-md-auto col-lg-3 col-md-4 col-sm-5 col-6 d-flex align-items-center',
+                'menu_class'            => 'list-unstyled mt-5 mt-md-0 text-black d-flex justify-content-between w-100',
             )) ?>
             <p class="copyright col-12 text-center mt-4">Copyright &copy; <span class="year">2020</span> Skyward Designs</p>
         </div>

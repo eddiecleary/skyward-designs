@@ -76,9 +76,9 @@ small,
 body {
     font-family: 'Lato', sans-serif;
     line-height: 1.5;
-    @media (max-width: $md) {
-        font-size: 0.875rem;
-    }
+    // @media (max-width: $md) {
+    //     font-size: 0.875rem;
+    // }
 }
 
 // Global styles
@@ -124,7 +124,7 @@ body {
             width: 240px;
         }
         @media (max-width: $md) {
-            width: 220px;
+            width: 210px;
         }
         img {
             width: 100%;
@@ -135,6 +135,10 @@ body {
 // Footer styles
 .footer {
     margin-top: 150px;
+
+    @media (max-width: $sm) {
+        margin-top: 70px;
+    }
 
     .menu-item {
         a {
@@ -147,14 +151,28 @@ body {
 
 #home {
     .hero {
-        height: 530px;
-        background: linear-gradient(rgba(#000, 0.6),rgba(#000, 0.6)),url('https://res.cloudinary.com/djoe/image/upload/f_auto,q_90,w_1440/v1609778891/Skyward%20Designs%20%28new%29/hero_xnnwzu.jpg');
+        height: 630px;
+        background: linear-gradient(rgba(#000, 0.6),rgba(#000, 0.6)),url('https://res.cloudinary.com/djoe/image/upload/f_auto,q_20/v1609797319/Skyward%20Designs%20%28new%29/hero_r2khib.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
 
+        @media (max-width: $md) {
+            height: 500px;
+        }
+
+        h1 {
+            color: $secondary-300;
+        }
+
         p:first-of-type {
             margin-top: 20px;
+            width: 100%;
+
+            @media (max-width:$lg) {
+                width: 400px;
+            }
+
         }
 
         .btn {
@@ -165,22 +183,51 @@ body {
 
     .featured-top-section {
         padding: 4rem 0 8rem 0;
+
+        @media (max-width: $md) {
+            padding: 0;
+            padding-bottom: 4rem;
+        }
     }
 
     .featured-bottom-section {
         padding: 4rem 0 8rem 0;
+
+        @media (max-width: $md) {
+            padding: 0;
+            padding-bottom: 4rem;
+        }
     }
 
     .feature {
         margin-top: 8rem;
 
+        @media (max-width: $md) {
+            margin-top: 4rem;
+        }
+
+        &__list {
+            @media (max-width: $lg) {
+                margin-top: 60px;
+            }
+        }
+
         &__title {
             margin-bottom: 27px;
+        }
+
+        &__item {
+            display: flex;
         }
 
         &__item:not(:last-of-type) {
             margin-bottom: 21px;
         }
+    }
+
+    .triangle {
+        width: 20px;
+        height: 24px;
     }
 
     .pricing-cta {
@@ -190,8 +237,19 @@ body {
         background-size: cover;
         background-position: center center;
 
+        .price-wrapper {
+            @media (max-width:404px) {
+                padding-left: 0;
+                padding-right: 0;
+            }
+        }
+
         .price-cta-card {
             padding: 53px;
+
+            @media (max-width:404px) {
+                padding: 25px;
+            }
 
             p {
                 margin-top: 24px;
