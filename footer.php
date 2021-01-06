@@ -14,7 +14,7 @@ defined( 'ABSPATH' ) || exit;
 
 <footer class="footer">
     <div class="container">
-        <div class="row d-flex flex-column flex-md-row align-items-center">
+        <div class="row d-flex flex-column flex-md-row align-items-center w-100 mx-auto">
             <?php the_custom_logo() ?>
             <?php wp_nav_menu(array(
                 'container_class'       => 'ml-md-auto col-lg-3 col-md-4 col-sm-5 col-6 d-flex align-items-center',
