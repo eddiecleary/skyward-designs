@@ -69,7 +69,7 @@ get_header();
     <section class="pricing-cta">
         <div class="container h-100">
             <div class="row align-items-center h-100">
-                <div class="price-wrapper col-lg-6 mx-xl-none mx-auto col-md-8 col-sm-10 col-12 col-xl-5">
+                <div class="price-wrapper col-lg-6 mx-xl-0 mx-auto col-md-8 col-sm-10 col-12 col-xl-5">
                     <div class="price-cta-card bg-white text-center">
                         <h3 class="font-weight-bold">Reasonably priced</h3>
                         <p>Low-cost initial design and only $99 a year for high-speed hosting.</p>
