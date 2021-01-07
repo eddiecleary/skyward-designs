@@ -361,6 +361,10 @@ body {
                 max-width: 450px;
             }
 
+            @media(max-width:$sm) {
+                max-width: 350px;
+            }
+
             .fa {
                 font-size: 48px;
             }
