@@ -28,7 +28,7 @@ get_header();
     <section class="contact-boxes">
         <div class="container">
             <div class="row justify-content-lg-between justify-content-center">
-                <div class="col-lg-6 border d-flex flex-column align-items-center text-center contact-box bg-white">
+                <div class="col-11 border d-flex flex-column align-items-center text-center contact-box bg-white">
                     <i class="fa fa-phone text-secondary"></i>
                     <h3 class="mt-25">Talk to Sales</h3>
                     <p class="w-75 mt-30">Interested in our services? Just pick up the phone to chat with a member of our sales team.</p>
@@ -36,7 +36,7 @@ get_header();
                     <p class="my-10">or</p>
                     <a href="mailto:info@skywarddesigns.com" class="d-block text-nav text-secondary-900">info@skywarddesigns.com</a>
                 </div>
-                <div class="col-lg-6 border d-flex flex-column align-items-center text-center contact-box contact-box--2 bg-white">
+                <div class="col-11 border d-flex flex-column align-items-center text-center contact-box contact-box--2 bg-white">
                     <i class="fa fa-comments text-secondary"></i>
                     <h3 class="mt-25">Customer Support</h3>
                     <p class="w-75 mt-30">It’s easy to get in touch with us for help with any of your concerns. Chat, email, or call us now!</p>
