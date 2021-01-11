@@ -40,7 +40,7 @@ get_header();
                     <i class="fa fa-comments text-secondary"></i>
                     <h3 class="mt-25">Customer Support</h3>
                     <p class="w-75 mt-30">It’s easy to get in touch with us for help with any of your concerns. Chat, email, or call us now!</p>
-                    <a href="#" class="d-block text-nav text-secondary-900 mt-25">Open Messenger</a>
+                    <a href="https://www.facebook.com/Skyward-Designs-100663128664710" class="d-block text-nav text-secondary-900 mt-25">Chat with us on Facebook</a>
                     <p class="my-6">or</p>
                     <a href="mailto:info@skywarddesigns.com" class="d-block text-nav text-secondary-900">info@skywarddesigns.com</a>
                 </div>

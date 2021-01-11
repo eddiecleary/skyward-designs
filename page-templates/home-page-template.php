@@ -21,9 +21,9 @@ get_header();
                 <div class="col text-center">
                     <h1>Beautiful websites for the modern author.</h1>
                     <p class="text-white text-nav mx-auto">We build custom websites to help you reach, engage, and inspire your readers.</p>
-                    <a href="#" class="btn btn-primary text-capitalize text-button">Contact us today</a>
+                    <a href="" class="btn btn-primary text-capitalize text-button">Contact us today</a>
                     <br>
-                    <p class="text-white">Free consultation. Cheap hosting.</p>
+                    <p class="text-white">Free consultation. Free year of hosting.</p>
                 </div>
             </div>
         </div>
