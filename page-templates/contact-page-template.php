@@ -20,7 +20,7 @@ get_header();
             <div class="row h-100 d-flex justify-content-center align-items-center">
                 <div class="col text-center">
                     <h1 class="text-secondary">Contact Us Today</h1>
-                    <p class="text-white w-75 mx-auto">Want to get in touch? We'd love to hear from you. Here's how you can reach us...</p>
+                    <p class="text-nav text-white w-75 mx-auto">Want to get in touch? We'd love to hear from you. Here's how you can reach us...</p>
                 </div>
             </div>
         </div>

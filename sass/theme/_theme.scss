@@ -373,3 +373,35 @@ body {
         }
     }
 }
+
+// Services page
+#services {
+    .hero {
+        height: 530px;
+        background: linear-gradient(rgba(#000, 0.6),rgba(#000, 0.6)),url('https://res.cloudinary.com/djoe/image/upload/q_30,f_auto/v1610374628/Skyward%20Designs%20%28new%29/services-hero_qsk1nt.jpg');
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        p:first-of-type {
+            margin-top: 20px;
+        }
+    }
+
+
+    .service {
+        margin-top: 115px;
+
+        .service-box {
+            margin-top: 80px;
+
+            h3 {
+                margin-top: 33px;
+            }
+
+            p {
+                margin-top: 16px;
+            }
+        }
+    }
+}
