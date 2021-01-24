@@ -298,39 +298,144 @@ body {
         background-color: $secondary-300;
         padding: 8rem 0;
 
+        .row.mt {
+
+            @media (min-width: $md) {
+                margin-top: 4rem;
+            }
+        }
+
         &__title {
             margin-bottom: 3rem;
         }
 
         &__card {
+            overflow: hidden;
+            height: 635px;
 
+            @media(max-width:$md) {
+                max-width: 375px;
+            }
+
+            @media(min-width: $xl) {
+                transform: scale(0.94);
+            }
+
+            &:hover {
+
+                .pricing__header-bg--2 {
+                    transform: translate(-50%, -38%);
+                }
+
+                .pricing__header-bg--3 {
+                    left: 0%;
+                }
+
+                .pricing__header-bg--4 {
+                    right: 0%;
+                }
+            }
+
+            &.scale {
+                @media (min-width: $xl) {
+                    transform: scale(1.02);
+                }
+            }
         }
 
         &__header {
             width: 100%;
             height: 216px;
             background: radial-gradient(54.86% 54.86% at 50% 50%, #008CD2 0%, #00344F 100%);
+            position: relative;
+
+            &-banner {
+                position: absolute;
+                transform: rotate(45deg);
+                top: 8%;
+                right: -16%;
+                padding-top: 0.6rem;
+                padding-bottom: 0.2rem;
+
+                @media (min-width: $md) {
+                    top: 7%;
+                    right: -14%;
+                    padding-top: 0.6rem;
+                    padding-bottom: 0.2rem;
+                }
+
+                @media (min-width: $xl) {
+                    top: 8%;
+                    right: -15%;
+                    padding-top: 0.7rem;
+                    padding-bottom: 0.3rem;
+                }
+
+            }
 
             &-text {
                 font-family: "Lato", sans-serif;
                 font-size: 20px;
                 line-height: 24px;
                 letter-spacing: 3.8px;
+                position: relative;
+                top: -13px;
             }
 
             &-dollar {
                 font-size: 33px;
                 line-height: 40px;
+                position: relative;
+                bottom: -2px;
+                left: -8px;
             }
 
             &-price {
                 font-size: 70px;
                 line-height: 84px;
                 letter-spacing: 0.06em;
+                position: relative;
+                top: -10px;
             }
 
             &-subtext {
                 color: $secondary-300;
+                position: relative;
+                top: -8px;
+            }
+
+            &-bg {
+                position: absolute;
+                top: 100%;
+                width: 100%;
+
+                img {
+                    width: 100%;
+                    position: absolute;
+                    transform: translateY(-50%);
+                    transition: all 0.5s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+                }
+
+                img.pricing__header-bg--1 {
+                }
+
+                img.pricing__header-bg--2 {
+                    width: auto;
+                    left: 50%;
+                    transform: translate(-50%,-30%);
+                }
+
+                img.pricing__header-bg--3 {
+                    left: -5%;
+                }
+
+                img.pricing__header-bg--4 {
+                    right: -5%;
+                }
+            }
+
+            &__footer {
+                flex: 1;
             }
         }
     }

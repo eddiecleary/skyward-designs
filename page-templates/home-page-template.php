@@ -123,24 +123,30 @@ get_header();
         <section class="pricing">
             <div class="container">
                 <h3 class="h2 text-center pricing__title">Pricing</h3>
-                <div class="row justify-content-center">
-                    <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
-                        <div class="pricing__card bg-white">
+                <div class="row justify-content-center mt">
+                    <div class="col-lg-4 col-md-6 col-sm-9">
+                        <div class="pricing__card mx-auto mx-md-none bg-white d-flex flex-column justify-content-between">
                             <div class="pricing__header text-white d-flex flex-column justify-content-center align-items-center">
-                                <h4 class="pricing__header-text text-uppercase mb-4">
+                                <h4 class="pricing__header-text text-uppercase mb-2">
                                     Single-Page
                                 </h4>
                                 <div class="pricing__header-price-wrap d-flex align-items-start">
                                     <span class="pricing__header-dollar">$</span>
-                                    <span class="pricing__header-price">599</span>
+                                    <span class="pricing__header-price">699</span>
                                 </div>
-                                <div class="pricing__header-subtext mt-2">+ 1 year of high-speed hosting</div>
+                                <div class="pricing__header-subtext d-none">+ 1 year of <em>high-speed</em> hosting <span class="text-primary">included</span></div>
+                                <div class="pricing__header-bg">
+                                    <img class="pricing__header-bg--4" src="https://res.cloudinary.com/djoe/image/upload/v1611499899/Skyward%20Designs%20%28new%29/pricing-cards/right-4_jcl9q8.svg" role="presentation">
+                                    <img src="https://res.cloudinary.com/djoe/image/upload/v1611499899/Skyward%20Designs%20%28new%29/pricing-cards/left-3_hcnqmt.svg" role="presentation" class="pricing__header-bg--3">
+                                    <img src="https://res.cloudinary.com/djoe/image/upload/v1611499899/Skyward%20Designs%20%28new%29/pricing-cards/middle-2_ifnygh.svg" role="presentation" class="pricing__header-bg--2">
+                                    <img src="https://res.cloudinary.com/djoe/image/upload/v1611499899/Skyward%20Designs%20%28new%29/pricing-cards/middle-1_ojjk2c.svg" role="presentation" class="pricing__header-bg--1">
+                                </div>
                             </div>
-                            <div class="pricing__body p-5">
+                            <div class="pricing__body p-3 mt-4">
                                 <ul class="pricing__list list-unstyled">
                                     <li class="pricing__list-item mb-4 d-flex align-items-center"><img class="d-block mr-2 triangle" src="https://res.cloudinary.com/djoe/image/upload/v1609783765/Skyward%20Designs%20%28new%29/triangle_k1amif.svg" alt="triangle"><span>Great for simple sites.</span></li>
-                                    <li class="pricing__list-item mb-4 d-flex align-items-center"><img class="d-block mr-2 triangle" src="https://res.cloudinary.com/djoe/image/upload/v1609783765/Skyward%20Designs%20%28new%29/triangle_k1amif.svg" alt="triangle"><span>Great for simple sites.</span></li>
-                                    <li class="pricing__list-item d-flex align-items-center"><img class="d-block mr-2 triangle" src="https://res.cloudinary.com/djoe/image/upload/v1609783765/Skyward%20Designs%20%28new%29/triangle_k1amif.svg" alt="triangle"><span>Great for simple sites.</span></li>
+                                    <li class="pricing__list-item mb-4 d-flex align-items-center"><img class="d-block mr-2 triangle" src="https://res.cloudinary.com/djoe/image/upload/v1609783765/Skyward%20Designs%20%28new%29/triangle_k1amif.svg" alt="triangle"><span>Easy to scroll and view.</span></li>
+                                    <li class="pricing__list-item d-flex align-items-center"><img class="d-block mr-2 triangle" src="https://res.cloudinary.com/djoe/image/upload/v1609783765/Skyward%20Designs%20%28new%29/triangle_k1amif.svg" alt="triangle"><span>Cost effective.</span></li>
                                 </ul>
                             </div>
                             <div class="pricing__footer d-flex flex-column align-items-center pb-5">
@@ -153,28 +159,35 @@ get_header();
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
-                        <div class="pricing__card bg-white">
+                    <div class="col-lg-4 col-md-6 col-sm-9 mt-5 mt-md-0">
+                        <div class="pricing__card mx-auto mx-md-none bg-white scale d-flex flex-column justify-content-between">
                             <div class="pricing__header text-white d-flex flex-column justify-content-center align-items-center">
-                                <h4 class="pricing__header-text text-uppercase mb-4">
+                                <div class="pricing__header-banner font-weight-bold text-dark bg-primary w-50 text-center">Best Value</div>
+                                <h4 class="pricing__header-text text-uppercase mb-2">
                                     Multi-Page
                                 </h4>
                                 <div class="pricing__header-price-wrap d-flex align-items-start">
                                     <span class="pricing__header-dollar">$</span>
-                                    <span class="pricing__header-price">749</span>
+                                    <span class="pricing__header-price">849</span>
                                 </div>
-                                <div class="pricing__header-subtext mt-2">+ 1 year of high-speed hosting</div>
+                                <div class="pricing__header-subtext">+ 1 year of <em>high-speed</em> hosting <span class="text-primary">included</span></div>
+                                <div class="pricing__header-bg">
+                                    <img class="pricing__header-bg--4" src="https://res.cloudinary.com/djoe/image/upload/v1611499899/Skyward%20Designs%20%28new%29/pricing-cards/right-4_jcl9q8.svg" role="presentation">
+                                    <img src="https://res.cloudinary.com/djoe/image/upload/v1611499899/Skyward%20Designs%20%28new%29/pricing-cards/left-3_hcnqmt.svg" role="presentation" class="pricing__header-bg--3">
+                                    <img src="https://res.cloudinary.com/djoe/image/upload/v1611499899/Skyward%20Designs%20%28new%29/pricing-cards/middle-2_ifnygh.svg" role="presentation" class="pricing__header-bg--2">
+                                    <img src="https://res.cloudinary.com/djoe/image/upload/v1611499899/Skyward%20Designs%20%28new%29/pricing-cards/middle-1_ojjk2c.svg" role="presentation" class="pricing__header-bg--1">
+                                </div>
                             </div>
-                            <div class="pricing__body p-5">
+                            <div class="pricing__body p-3 mt-4">
                                 <ul class="pricing__list list-unstyled">
-                                    <li class="pricing__list-item mb-4 d-flex align-items-center"><img class="d-block mr-2 triangle" src="https://res.cloudinary.com/djoe/image/upload/v1609783765/Skyward%20Designs%20%28new%29/triangle_k1amif.svg" alt="triangle"><span>Great for simple sites.</span></li>
-                                    <li class="pricing__list-item mb-4 d-flex align-items-center"><img class="d-block mr-2 triangle" src="https://res.cloudinary.com/djoe/image/upload/v1609783765/Skyward%20Designs%20%28new%29/triangle_k1amif.svg" alt="triangle"><span>Great for simple sites.</span></li>
-                                    <li class="pricing__list-item d-flex align-items-center"><img class="d-block mr-2 triangle" src="https://res.cloudinary.com/djoe/image/upload/v1609783765/Skyward%20Designs%20%28new%29/triangle_k1amif.svg" alt="triangle"><span>Great for simple sites.</span></li>
+                                    <li class="pricing__list-item mb-4 d-flex align-items-center"><img class="d-block mr-2 triangle" src="https://res.cloudinary.com/djoe/image/upload/v1609783765/Skyward%20Designs%20%28new%29/triangle_k1amif.svg" alt="triangle"><span>Traditional layout.</span></li>
+                                    <li class="pricing__list-item mb-4 d-flex align-items-center"><img class="d-block mr-2 triangle" src="https://res.cloudinary.com/djoe/image/upload/v1609783765/Skyward%20Designs%20%28new%29/triangle_k1amif.svg" alt="triangle"><span>Purposeful pages.</span></li>
+                                    <li class="pricing__list-item d-flex align-items-center"><img class="d-block mr-2 triangle" src="https://res.cloudinary.com/djoe/image/upload/v1609783765/Skyward%20Designs%20%28new%29/triangle_k1amif.svg" alt="triangle"><span>Detailed author, contact, and book pages.</span></li>
                                 </ul>
                             </div>
                             <div class="pricing__footer d-flex flex-column align-items-center pb-5">
                                 <div class="pricing__footer-btn">
-                                    <a href="https://multipage.skywarddesigns.com" class="btn btn-outline text-capitalize">View Example</a>
+                                    <a href="https://singlepage.skywarddesigns.com" class="btn btn-outline text-capitalize">View Example</a>
                                 </div>
                                 <div class="pricing__footer-btn mt-4">
                                     <a href="#" class="btn btn-primary text-capitalize">Contact Us Today</a>
@@ -182,28 +195,34 @@ get_header();
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 mt-5 mt-md-4 mt-lg-0">
-                        <div class="pricing__card bg-white">
+                    <div class="col-lg-4 col-md-6 col-sm-9 mt-4 mt-lg-0">
+                        <div class="pricing__card mx-auto mx-md-none bg-white d-flex flex-column justify-content-between">
                             <div class="pricing__header text-white d-flex flex-column justify-content-center align-items-center">
-                                <h4 class="pricing__header-text text-uppercase mb-4">
+                                <h4 class="pricing__header-text text-uppercase mb-2">
                                     Blog
                                 </h4>
                                 <div class="pricing__header-price-wrap d-flex align-items-start">
                                     <span class="pricing__header-dollar">$</span>
-                                    <span class="pricing__header-price">899</span>
+                                    <span class="pricing__header-price">1199</span>
                                 </div>
-                                <div class="pricing__header-subtext mt-2">+ 1 year of high-speed hosting</div>
+                                <div class="pricing__header-subtext">+ 2 years of <em>high-speed</em> hosting <span class="text-primary">included</span></div>
+                                <div class="pricing__header-bg">
+                                    <img class="pricing__header-bg--4" src="https://res.cloudinary.com/djoe/image/upload/v1611499899/Skyward%20Designs%20%28new%29/pricing-cards/right-4_jcl9q8.svg" role="presentation">
+                                    <img src="https://res.cloudinary.com/djoe/image/upload/v1611499899/Skyward%20Designs%20%28new%29/pricing-cards/left-3_hcnqmt.svg" role="presentation" class="pricing__header-bg--3">
+                                    <img src="https://res.cloudinary.com/djoe/image/upload/v1611499899/Skyward%20Designs%20%28new%29/pricing-cards/middle-2_ifnygh.svg" role="presentation" class="pricing__header-bg--2">
+                                    <img src="https://res.cloudinary.com/djoe/image/upload/v1611499899/Skyward%20Designs%20%28new%29/pricing-cards/middle-1_ojjk2c.svg" role="presentation" class="pricing__header-bg--1">
+                                </div>
                             </div>
-                            <div class="pricing__body p-5">
+                            <div class="pricing__body p-3 mt-4">
                                 <ul class="pricing__list list-unstyled">
-                                    <li class="pricing__list-item mb-4 d-flex align-items-center"><img class="d-block mr-2 triangle" src="https://res.cloudinary.com/djoe/image/upload/v1609783765/Skyward%20Designs%20%28new%29/triangle_k1amif.svg" alt="triangle"><span>Great for simple sites.</span></li>
-                                    <li class="pricing__list-item mb-4 d-flex align-items-center"><img class="d-block mr-2 triangle" src="https://res.cloudinary.com/djoe/image/upload/v1609783765/Skyward%20Designs%20%28new%29/triangle_k1amif.svg" alt="triangle"><span>Great for simple sites.</span></li>
-                                    <li class="pricing__list-item d-flex align-items-center"><img class="d-block mr-2 triangle" src="https://res.cloudinary.com/djoe/image/upload/v1609783765/Skyward%20Designs%20%28new%29/triangle_k1amif.svg" alt="triangle"><span>Great for simple sites.</span></li>
+                                    <li class="pricing__list-item mb-4 d-flex align-items-center"><img class="d-block mr-2 triangle" src="https://res.cloudinary.com/djoe/image/upload/v1609783765/Skyward%20Designs%20%28new%29/triangle_k1amif.svg" alt="triangle"><span>Easy to write blog articles.</span></li>
+                                    <li class="pricing__list-item mb-4 d-flex align-items-center"><img class="d-block mr-2 triangle" src="https://res.cloudinary.com/djoe/image/upload/v1609783765/Skyward%20Designs%20%28new%29/triangle_k1amif.svg" alt="triangle"><span>Promote your blog on Amazon.</span></li>
+                                    <li class="pricing__list-item d-flex align-items-center"><img class="d-block mr-2 triangle" src="https://res.cloudinary.com/djoe/image/upload/v1609783765/Skyward%20Designs%20%28new%29/triangle_k1amif.svg" alt="triangle"><span>Most modern author website.</span></li>
                                 </ul>
                             </div>
                             <div class="pricing__footer d-flex flex-column align-items-center pb-5">
                                 <div class="pricing__footer-btn">
-                                    <a href="https://blog.skywarddesigns.com" class="btn btn-outline text-capitalize">View Example</a>
+                                    <a href="https://singlepage.skywarddesigns.com" class="btn btn-outline text-capitalize">View Example</a>
                                 </div>
                                 <div class="pricing__footer-btn mt-4">
                                     <a href="#" class="btn btn-primary text-capitalize">Contact Us Today</a>
@@ -211,6 +230,7 @@ get_header();
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </section>
