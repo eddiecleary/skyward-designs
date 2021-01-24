@@ -26,45 +26,46 @@ $container = get_theme_mod( 'understrap_container_type' );
 <div class="site" id="page">
 
 	<!-- ******************* The Navbar Area ******************* -->
-	<header id="wrapper-navbar">
+    <div class="wrapper-100vh">
+        <header id="wrapper-navbar">
 
-		<a class="skip-link sr-only sr-only-focusable" href="#content"><?php esc_html_e( 'Skip to content', 'understrap' ); ?></a>
+            <a class="skip-link sr-only sr-only-focusable" href="#content"><?php esc_html_e( 'Skip to content', 'understrap' ); ?></a>
 
-		<nav id="main-nav" class="navbar navbar-expand-lg navbar-light py-0 bg-white" aria-labelledby="main-nav-label">
-            <div class="container">
+            <nav id="main-nav" class="navbar navbar-expand-md navbar-light" aria-labelledby="main-nav-label">
+                <div class="container">
 
-                <div class="row w-100 mx-auto">
+                    <div class="row w-100 mx-auto">
 
-                    <h2 id="main-nav-label" class="sr-only">
-				        <?php esc_html_e( 'Main Navigation', 'understrap' ); ?>
-			        </h2>
+                        <h2 id="main-nav-label" class="sr-only">
+                            <?php esc_html_e( 'Main Navigation', 'understrap' ); ?>
+                        </h2>
 
-                    <?php the_custom_logo() ?>
+                        <?php the_custom_logo() ?>
 
-                    <button class="navbar-toggler ml-auto border-0" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'understrap' ); ?>">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+                        <button class="navbar-toggler ml-auto border-0" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'understrap' ); ?>">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
 
-                    <!-- The WordPress Menu goes here -->
-                    <?php
-                    wp_nav_menu(
-                        array(
-                            'theme_location'  => 'primary',
-                            'container_class' => 'collapse navbar-collapse text-center text-nav ml-lg-auto col-lg-4 col-xl-3 mt-4 mt-lg-0',
-                            'container_id'    => 'navbarNavDropdown',
-                            'menu_class'      => 'navbar-nav d-flex w-100 justify-content-between',
-                            'fallback_cb'     => '',
-                            'menu_id'         => 'main-menu',
-                            'depth'           => 2,
-                            'walker'          => new Understrap_WP_Bootstrap_Navwalker(),
-                        )
-                    );
-                    ?>
+                        <!-- The WordPress Menu goes here -->
+                        <?php
+                        wp_nav_menu(
+                            array(
+                                'theme_location'  => 'primary',
+                                'container_class' => 'collapse navbar-collapse text-center text-nav ml-md-auto col-md-5 col-lg-4 col-xl-3 mt-4 mt-md-0',
+                                'container_id'    => 'navbarNavDropdown',
+                                'menu_class'      => 'navbar-nav d-flex w-100 justify-content-between',
+                                'fallback_cb'     => '',
+                                'menu_id'         => 'main-menu',
+                                'depth'           => 2,
+                                'walker'          => new Understrap_WP_Bootstrap_Navwalker(),
+                            )
+                        );
+                        ?>
+
+                    </div>
 
                 </div>
 
-            </div>
+            </nav><!-- .site-navigation -->
 
-		</nav><!-- .site-navigation -->
-
-	</header><!-- #wrapper-navbar end -->
+        </header><!-- #wrapper-navbar end -->

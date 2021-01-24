@@ -15,7 +15,7 @@ get_header();
 ?>
 
 <main id="services">
-    <section class="hero mt-3">
+    <section class="hero">
         <div class="container h-100">
             <div class="row h-100 justify-content-center align-items-center">
                 <div class="col text-center">

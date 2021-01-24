@@ -80,21 +80,20 @@ small,
 body {
     font-family: 'Lato', sans-serif;
     line-height: 1.5;
-    // @media (max-width: $md) {
-    //     font-size: 0.875rem;
-    // }
 }
 
 // Global styles
-
-body {
-    padding: 1rem 0;
-}
 
 .btn {
     padding: 12px 24px;
     border-color: #E4B34F;
     border-width: 2px 2px 5px 2px;
+}
+
+.btn-outline {
+    border-color: $black;
+    border-width: 2px;
+    border-radius: 0;
 }
 
 .wpcf7 input:not(:disabled):not(.disabled)[type=submit] {
@@ -132,7 +131,19 @@ body {
 
 // Header styles
 
+.wrapper-100vh {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 #main-nav {
+    background-color: $secondary-900;
+
+    @media (min-width: $md) {
+        padding: 1.5rem 0;
+    }
+
     .custom-logo-link {
         width: 290px;
         @media (max-width: $xl) {
@@ -153,6 +164,7 @@ body {
 // Footer styles
 .footer {
     margin-top: 150px;
+    background-color: $secondary-900;
 
     @media (max-width: $sm) {
         margin-top: 70px;
@@ -160,7 +172,7 @@ body {
 
     .menu-item {
         a {
-            color: $black;
+            color: $white;
         }
     }
 
@@ -173,20 +185,15 @@ body {
 
 // Home Page Styles
 
-#home {
-    .hero {
-        height: 630px;
-        background: linear-gradient(rgba(#000, 0.6),rgba(#000, 0.6)),url('https://res.cloudinary.com/djoe/image/upload/f_auto,q_20/v1609797319/Skyward%20Designs%20%28new%29/hero_r2khib.jpg');
+    .home-hero {
+        flex: 1 1 100%;
+        background: url('https://res.cloudinary.com/djoe/image/upload/f_auto,q_20,w_auto,dpr_auto/v1611439506/Skyward%20Designs%20%28new%29/hero2_qzczje.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
 
         @media (max-width: $md) {
             height: 500px;
-        }
-
-        h1 {
-            color: $secondary-300;
         }
 
         p:first-of-type {
@@ -205,8 +212,10 @@ body {
         }
     }
 
+#home {
+
     .featured-top-section {
-        padding: 4rem 0 8rem 0;
+        padding-bottom: 8rem;
 
         @media (max-width: $md) {
             padding: 0;
@@ -215,7 +224,7 @@ body {
     }
 
     .featured-bottom-section {
-        padding: 4rem 0 8rem 0;
+        padding-bottom: 8rem;
 
         @media (max-width: $md) {
             padding: 0;
@@ -256,7 +265,7 @@ body {
 
     .pricing-cta {
         height: 530px;
-        background: linear-gradient(rgba(#000, 0.4),rgba(#000, 0.4)),url('https://res.cloudinary.com/djoe/image/upload/f_auto,q_90,w_1440/v1609785779/Skyward%20Designs%20%28new%29/pricebg_tdomoi.jpg');
+        background: url('https://res.cloudinary.com/djoe/image/upload/q_90,f_auto,w_auto,dpr_auto/v1611439744/Skyward%20Designs%20%28new%29/pricebg2_vilv3i.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -285,7 +294,49 @@ body {
         }
     }
 
+    .pricing {
+        background-color: $secondary-300;
+        padding: 8rem 0;
+
+        &__title {
+            margin-bottom: 3rem;
+        }
+
+        &__card {
+
+        }
+
+        &__header {
+            width: 100%;
+            height: 216px;
+            background: radial-gradient(54.86% 54.86% at 50% 50%, #008CD2 0%, #00344F 100%);
+
+            &-text {
+                font-family: "Lato", sans-serif;
+                font-size: 20px;
+                line-height: 24px;
+                letter-spacing: 3.8px;
+            }
+
+            &-dollar {
+                font-size: 33px;
+                line-height: 40px;
+            }
+
+            &-price {
+                font-size: 70px;
+                line-height: 84px;
+                letter-spacing: 0.06em;
+            }
+
+            &-subtext {
+                color: $secondary-300;
+            }
+        }
+    }
+
     .cta-form {
+        padding-top: 6rem;
 
         p:first-of-type {
             margin-top: 21px;
