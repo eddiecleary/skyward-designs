@@ -124,7 +124,7 @@ get_header();
             <div class="container">
                 <h3 class="h2 text-center pricing__title">Pricing</h3>
                 <div class="row justify-content-center mt">
-                    <div class="col-lg-4 col-md-6 col-sm-9">
+                    <div class="col-lg-4 col-md-6 col-sm-9 p-lg-0 p-xl-3">
                         <div class="pricing__card mx-auto mx-md-none bg-white d-flex flex-column">
                             <div class="pricing__header text-white d-flex flex-column justify-content-center align-items-center">
                                 <h4 class="pricing__header-text text-uppercase mb-2">
@@ -159,7 +159,7 @@ get_header();
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-9 mt-5 mt-md-0">
+                    <div class="col-lg-4 col-md-6 col-sm-9 p-lg-0 p-xl-3 mt-5 mt-md-0">
                         <div class="pricing__card mx-auto mx-md-none bg-white scale d-flex flex-column justify-content-between">
                             <div class="pricing__header text-white d-flex flex-column justify-content-center align-items-center">
                                 <div class="pricing__header-banner font-weight-bold text-dark bg-primary w-50 text-center">Best Value</div>
@@ -195,7 +195,7 @@ get_header();
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-9 mt-4 mt-lg-0">
+                    <div class="col-lg-4 col-md-6 col-sm-9 p-lg-0 p-xl-3 mt-4 mt-lg-0">
                         <div class="pricing__card mx-auto mx-md-none bg-white d-flex flex-column justify-content-between">
                             <div class="pricing__header text-white d-flex flex-column justify-content-center align-items-center">
                                 <h4 class="pricing__header-text text-uppercase mb-2">
@@ -237,7 +237,7 @@ get_header();
         <section class="cta-form">
             <div class="container">
                 <div class="row">
-                    <div class="col-11 col-md-8 mx-auto text-center">
+                    <div class="col-11 col-md-8 col-lg-7 col-xl-7 mx-auto text-center">
                         <h2>Start your free consultation today!</h2>
                         <p class="w-75 mx-auto">Leave us your e-mail and we will contact you to setup a free consultation by chat or phone.</p>
                         <?php echo do_shortcode('[contact-form-7 id="22" title="Contact form 1"]') ?>
