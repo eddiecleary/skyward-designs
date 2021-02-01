@@ -20,7 +20,7 @@ get_header();
                 <div class="col text-center">
                     <h1 class="text-white">Beautiful websites for the modern author.</h1>
                     <p class="text-white text-nav mx-auto">We build custom websites to help you reach, engage, and inspire your readers.</p>
-                    <a href="" class="btn btn-primary text-capitalize text-button">Contact us today</a>
+                    <a href="#contact" class="btn btn-primary text-capitalize text-button">Contact us today</a>
                     <br>
                     <p class="text-white">Free consultation. Free year of hosting.</p>
                 </div>
@@ -74,7 +74,7 @@ get_header();
                         <div class="price-cta-card bg-white text-center">
                             <h3 class="font-weight-bold">Reasonably priced</h3>
                             <p>Low-cost initial design and only $99 a year for high-speed hosting.</p>
-                            <div class="btn btn-primary">Get started with a free consultation</div>
+                            <a href="#contact" class="btn btn-primary">Get started with a free consultation</a>
                             <br>
                             <small>Powerful hosting. Cancel anytime.</small>
                         </div>
@@ -154,7 +154,7 @@ get_header();
                                     <a href="https://singlepage.skywarddesigns.com" class="btn btn-outline text-capitalize" target="_blank">View Example</a>
                                 </div>
                                 <div class="pricing__footer-btn mt-4">
-                                    <a href="#" class="btn btn-primary text-capitalize">Contact Us Today</a>
+                                    <a href="#contact" class="btn btn-primary text-capitalize">Contact Us Today</a>
                                 </div>
                             </div>
                         </div>
@@ -190,7 +190,7 @@ get_header();
                                     <a href="https://multipage.skywarddesigns.com" target="_blank" class="btn btn-outline text-capitalize">View Example</a>
                                 </div>
                                 <div class="pricing__footer-btn mt-4">
-                                    <a href="#" class="btn btn-primary text-capitalize">Contact Us Today</a>
+                                    <a href="#contact" class="btn btn-primary text-capitalize">Contact Us Today</a>
                                 </div>
                             </div>
                         </div>
@@ -225,7 +225,7 @@ get_header();
                                     <a href="https://blog.skywarddesigns.com" target="_blank" class="btn btn-outline text-capitalize">View Example</a>
                                 </div>
                                 <div class="pricing__footer-btn mt-4">
-                                    <a href="#" class="btn btn-primary text-capitalize">Contact Us Today</a>
+                                    <a href="#contact" class="btn btn-primary text-capitalize">Contact Us Today</a>
                                 </div>
                             </div>
                         </div>
@@ -238,7 +238,7 @@ get_header();
             <div class="container">
                 <div class="row">
                     <div class="col-11 col-md-8 col-lg-7 col-xl-7 mx-auto text-center">
-                        <h2>Start your free consultation today!</h2>
+                        <h2 id="contact">Start your free consultation today!</h2>
                         <p class="w-75 mx-auto">Leave us your e-mail and we will contact you to setup a free consultation by chat or phone.</p>
                         <?php echo do_shortcode('[contact-form-7 id="22" title="Contact form 1"]') ?>
                     </div>
