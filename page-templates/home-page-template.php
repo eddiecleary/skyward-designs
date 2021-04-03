@@ -151,7 +151,7 @@ get_header();
                             </div>
                             <div class="pricing__footer d-flex flex-column justify-content-end align-items-center pb-4">
                                 <div class="pricing__footer-btn">
-                                    <a href="https://singlepage.skywarddesigns.com" class="btn btn-outline text-capitalize" target="_blank">View Example</a>
+                                    <a href="https://alessandra-montez.webflow.io/" class="btn btn-outline text-capitalize" target="_blank">View Example</a>
                                 </div>
                                 <div class="pricing__footer-btn mt-4">
                                     <a href="#contact" class="btn btn-primary text-capitalize">Contact Us Today</a>
@@ -187,7 +187,7 @@ get_header();
                             </div>
                             <div class="pricing__footer d-flex flex-column justify-content-end align-items-center pb-4">
                                 <div class="pricing__footer-btn">
-                                    <a href="https://multipage.skywarddesigns.com" target="_blank" class="btn btn-outline text-capitalize">View Example</a>
+                                    <a href="https://carlmichaels.webflow.io/" target="_blank" class="btn btn-outline text-capitalize">View Example</a>
                                 </div>
                                 <div class="pricing__footer-btn mt-4">
                                     <a href="#contact" class="btn btn-primary text-capitalize">Contact Us Today</a>
@@ -222,7 +222,7 @@ get_header();
                             </div>
                             <div class="pricing__footer d-flex flex-column justify-content-end align-items-center pb-4">
                                 <div class="pricing__footer-btn">
-                                    <a href="https://blog.skywarddesigns.com" target="_blank" class="btn btn-outline text-capitalize">View Example</a>
+                                    <a href="https://amelia-pond.webflow.io/" target="_blank" class="btn btn-outline text-capitalize">View Example</a>
                                 </div>
                                 <div class="pricing__footer-btn mt-4">
                                     <a href="#contact" class="btn btn-primary text-capitalize">Contact Us Today</a>
